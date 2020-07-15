@@ -1,0 +1,18 @@
+{
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    "git.alwaysSignOff": true,
+    "C_Cpp.default.defines": [
+        "__KERNEL__",
+        "MODULE_NAME=\"example_module\""
+    ],
+    "C_Cpp.default.includePath": [
+        "/lib/modules/4.19.104-microsoft-standard/build/include",
+        "/lib/modules/4.19.104-microsoft-standard/build/include/uapi",
+        "/lib/modules/4.19.104-microsoft-standard/build/include/generated",
+        "/lib/modules/4.19.104-microsoft-standard/build/arch/x86/include",
+        "/lib/modules/4.19.104-microsoft-standard/build/arch/x86/include/uapi",
+        "/lib/modules/4.19.104-microsoft-standard/build/arch/x86/include/generated",
+    ]
+}
