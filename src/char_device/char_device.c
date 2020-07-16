@@ -61,7 +61,7 @@ static ssize_t char_device_read(struct file *filp, char *buff, size_t len,
 static ssize_t char_device_write(struct file *filp, const char *buff,
 				 size_t len, loff_t *offset)
 {
-	return 0;
+	return len;
 }
 
 static int char_device_release(struct inode *inode, struct file *filp)
@@ -127,3 +127,4 @@ void char_device_remove(void)
 	class_destroy(s_driver_dev_class);
 	unregister_chrdev(s_driver_major_num, MODULE_NAME);
 }
+
